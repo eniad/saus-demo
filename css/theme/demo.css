@@ -1,0 +1,19 @@
+/*********************************************
+ * Demo Overrides
+ *********************************************/
+
+div.slides {
+    background: left top no-repeat url(/public/images/daac_logo_blue.png), right top no-repeat url(/public/images/420px-Globe_icon.png);
+    background-size: auto 50px;
+}
+
+h1.saus {
+    text-transform: none;
+}
+
+.swimlanes {
+    width: 100%;
+    height: 100%;
+    border: none!important;
+    box-shadow: none!important;
+}

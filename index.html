@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>SAuS Demo</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+	<link rel="stylesheet" href="css/theme/demo.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1 class="saus">SAuS DEMO</h1>
+			</section>
+			<section>
+				<h2>Introduction</h2>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					## What we like, why we like it, why we need it
+
+					1. streamline the ingest process
+					1. consistent data provider experience
+					1. create a uniform data product
+					1. diverse data variables, number of files, volume
+					1. Data products and metadata are uniform and maintainable
+					1. Flexible role management allows team members to readily coordinate and increases efficiency
+					1. Provide the ability to track a dataset from acceptance to publication
+					1. Automate steps that can be automated to improve efficiencies and reduce redundancy
+					1. Update legacy ingest infrastructure
+					1. Provide a centralized system to manage the various aspects of ingest. 
+					1. Handling high-priority/time sensitive (manuscript related) datasets
+					1. metrics driven value
+					1. Data uploaded to single secure upload area instead of several points of entry
+					1. Pending data sets for archival recorded in single place
+						1. Status of submissions in one table
+						1. Reporting of data set submission status becomes simple
+					1. Data products and metadata are uniform and maintainable
+					1. Flexible role management allows team members to readily coordinate and increases efficiency
+					1. Modules can be modified or re-written without affecting workflow
+					1. Provide the ability to track a data set from acceptance to publication
+					1. Automate steps that can be automated to improve efficiencies and reduce redundancy
+					1. Provide a centralized system to manage the various aspects of ingest
+						1. Data Files, Documentation, Code, Communications internal and external
+					1. Update legacy ingest infrastructure
+
+					<aside class="notes" data-markdown>
+						1. Diversity – Variables *update*
+							1. 2583 keywords 
+							1. 1364 investigators 
+							1. 343 variables 
+							1. 282 sensors 
+							1. 125 sources (satellites, flux towers, airplanes, etc.) 
+						1. Diversity – Files 
+							1. *generate bar chart of number of files per dataset*
+						1. Diversity – Volume
+							1. *generate bar chart of number of datasets by data volume*
+					</aside>
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					## Features
+				
+					1. Interest Form
+					1. Data Provider Questions &amp; Upload Area
+					1. user accounts managed by ORNL
+					1. Ingest Dashboard
+						1. Submission
+							1. Automated Emails
+							1. Monitors Upload Area
+						1. QA
+						1. Documentation
+						1. Publication
+					1. Ingest Kit
+					1. Metadata Editor
+					1. Set Up Data for Access Mechanisms
+					1. Tool and Service Ingest
+					1. Publication
+					1. Metadata registration
+						1. CMR
+						1. DOI
+					
+					<aside class="notes" data-markdown>
+						1. Semi-Automated publication workflow
+							1.Dashboard to handle dataset submission
+							1.Email data provider with instruction for ingest instructions and data upload
+							1.Monitors data upload and progress –agile ingest
+							1.Assigns data QA, emails assignees, and coordinator
+							1.Assign Documentation, emails assignee, and coordinator
+							1.Generate life cycle report of a dataset submission
+						1. Data Provider Interaction (DPQs)
+							1. Utilize data provider questions to collect primary information about datasets
+							1. Answers readily available to publication team
+							1. Form takes about 20 minutes to complete
+							1. Email communication recorded for provenance
+							1. Capture data provider knowledge
+						1. Metadata Editor
+							1.Designed to collect primary information about datasets
+							1.Answers should be readily available to ingest team
+							1.Form should only take about 20 minutes to complete
+							1.Travels with dataset throughout archival process
+						1. Publication
+							1.Monitor data upload area 
+							1.Copies files from upload area to storage and QA area
+							1.Collect granule level metadata
+							1.Data provider review 
+						1. Ingest Kit
+							1. Records emails between data provider and DAAC
+							1. Monitors data upload area 
+							1. Copies files from upload area to storage and QA area
+							1. Collects granule level metadata
+							1. Backs up MySQL database
+						1. Accepting the data package from the data providers, ensuring the full integrity of the data files.2. Addressing
+						and fixing data quality issues 
+						1. Assembling detailed metadata and documentation, including file level details, processing methodology, and characteristics
+							of data files 
+						1. Setting up data access mechanisms
+						1. Setup of the data in data tools and services for improved data dissemination 
+							1.The ORNL DAAC provides several tools and services for data access, analysis, and visualization for big data analytics.
+								1. GIS Tools and Services - SDAT
+								1. MODIS Subsetting and Visualization tools
+								1. Web Services - Daymet
+								1. Airborne visualization
+						1. Registering the dataset in online search and discovery catalogues
+						1. Preserving the data location through Digital Object Identifiers (DOI)
+					</aside>
+
+			</textarea>
+			</section>
+			<section>
+					<img src="/public/images/swimlanes_highlevel_v1.3.svg" class="swimlanes"></img>
+			</section>
+			<section>
+				<h2>Metrics</h2>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+				## Resources
+
+				1. Data Provider Questions - https://daac.ornl.gov/PI/questions.shtml
+				</textarea>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' }
+			],
+		});
+		Reveal.configure(
+			{ slideNumber: true }
+		);
+	</script>
+</body>
+
+</html>
