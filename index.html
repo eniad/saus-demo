@@ -29,40 +29,37 @@
 		<div class="slides">
 			<section>
 				<h1 class="saus">SAuS DEMO</h1>
-			</section>
-			<section>
-				<h2>Introduction</h2>
+				<p>Daine Wright, ORNL DAAC</p>
+				<p>2018-03-01</p>
 			</section>
 			<section data-markdown>
 				<textarea data-template>
-					## What we like, why we like it, why we need it
+					## What SAuS does for us
 
+					1. centralized system to manage ingest
 					1. streamline the ingest process
 					1. consistent data provider experience
 					1. create a uniform data product
 					1. diverse data variables, number of files, volume
-					1. Data products and metadata are uniform and maintainable
-					1. Flexible role management allows team members to readily coordinate and increases efficiency
-					1. Provide the ability to track a dataset from acceptance to publication
-					1. Automate steps that can be automated to improve efficiencies and reduce redundancy
-					1. Update legacy ingest infrastructure
-					1. Provide a centralized system to manage the various aspects of ingest. 
-					1. Handling high-priority/time sensitive (manuscript related) datasets
+					1. improve efficiencies and reduce redundancy
 					1. metrics driven value
-					1. Data uploaded to single secure upload area instead of several points of entry
-					1. Pending data sets for archival recorded in single place
-						1. Status of submissions in one table
-						1. Reporting of data set submission status becomes simple
-					1. Data products and metadata are uniform and maintainable
-					1. Flexible role management allows team members to readily coordinate and increases efficiency
-					1. Modules can be modified or re-written without affecting workflow
-					1. Provide the ability to track a data set from acceptance to publication
-					1. Automate steps that can be automated to improve efficiencies and reduce redundancy
-					1. Provide a centralized system to manage the various aspects of ingest
-						1. Data Files, Documentation, Code, Communications internal and external
-					1. Update legacy ingest infrastructure
 
 					<aside class="notes" data-markdown>
+						1. Flexible role management allows team members to readily coordinate and increases efficiency
+						1. Data products and metadata are uniform and maintainable
+						1. centralized location
+							1. Provide the ability to track a dataset from acceptance to publication
+							1. Data uploaded to single secure upload area instead of several points of entry
+							1. Pending data sets for archival recorded in single place
+								1. Data Files, Documentation, Code, Communications internal and external
+								1. Status of submissions in one table
+								1. Reporting of data set submission status becomes simple
+						1. streamline
+							1. Update legacy ingest infrastructure
+							1. Modules can be modified or re-written without affecting workflow
+						1. efficiency
+							1. Handling high-priority/time sensitive (manuscript related) datasets
+							1. Automate steps that can be automated
 						1. Diversity – Variables *update*
 							1. 2583 keywords 
 							1. 1364 investigators 
@@ -78,26 +75,24 @@
 			</section>
 			<section data-markdown>
 				<textarea data-template>
-					## Features
+					## What SAuS does not do 
+
+					*this slide could highlight what we need in a new system*
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					## Features of SAuS
 				
 					1. Interest Form
 					1. Data Provider Questions &amp; Upload Area
 					1. user accounts managed by ORNL
 					1. Ingest Dashboard
-						1. Submission
-							1. Automated Emails
-							1. Monitors Upload Area
-						1. QA
-						1. Documentation
-						1. Publication
 					1. Ingest Kit
 					1. Metadata Editor
-					1. Set Up Data for Access Mechanisms
-					1. Tool and Service Ingest
+					1. Data Access, Tool, and Service Ingest
 					1. Publication
 					1. Metadata registration
-						1. CMR
-						1. DOI
 					
 					<aside class="notes" data-markdown>
 						1. Semi-Automated publication workflow
@@ -140,22 +135,76 @@
 								1. MODIS Subsetting and Visualization tools
 								1. Web Services - Daymet
 								1. Airborne visualization
-						1. Registering the dataset in online search and discovery catalogues
-						1. Preserving the data location through Digital Object Identifiers (DOI)
+						1. metadata registration - CMR, DOI
+							1. Registering the dataset in online search and discovery catalogues
+							1. Preserving the data location through Digital Object Identifiers (DOI)
 					</aside>
 
 			</textarea>
 			</section>
-			<section>
-					<img src="/public/images/swimlanes_highlevel_v1.3.svg" class="swimlanes"></img>
+			<section data-markdown>
+				<textarea data-template>
+					## Ingest Dashboard
+
+					1. Submission
+						1. Automated Emails
+						1. Monitors Upload Area
+					1. QA
+					1. Documentation
+					1. Publication
+				</textarea>
 			</section>
 			<section>
-				<h2>Metrics</h2>
+				<img src="/public/images/swimlanes_highlevel_v1.3.svg" class="swimlanes"></img>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					## Demo
+
+					*show actual screen of each component*
+
+					1. Interest form
+					1. Initiate Submission
+						1. Submission metadata
+					1. Close Submission
+					1. Assign QA, Documentation, Tool Coordination
+						1. Reports
+					1. Publication
+
+					<aside class="notes" data-markdown="">
+						1. Interest form
+							1. simple, starts process
+						1. Initate submission - ingest coordinator
+							1. Initial email - instructions, links to DPQs, user account, data upload area, progress tracker
+							1. dataset metadata - assign project, ds_id
+						1. Ingest Kit
+							1. monitors upload area, automated reminder emails, captures incoming emails
+						1. Stage
+							1. QA - gdal, netcdf tools, manipulate csv
+							1. Documentation - DAACOME
+							1. Tool Coordination - new stage layered on top of QA, show flexibility of workflow
+							1. IC Verifies each stage
+							1. reports of status
+						1. Publication
+							1. not fully automated, scripts run by IC from CLI
+					</aside>
+				</textarea>
+			</section>
+			<section data-markdown>
+					<textarea data-template>
+					## Metrics
+
+					1. *number of datasets*
+					1. *number of data providers*
+					1. *number of ORNL DAAC staff*
+					1. *graph of average time of publication*
+					</textarea>
 			</section>
 			<section data-markdown>
 				<textarea data-template>
 				## Resources
 
+				1. Intestest Form - https://daac.ornl.gov/submit
 				1. Data Provider Questions - https://daac.ornl.gov/PI/questions.shtml
 				</textarea>
 			</section>
