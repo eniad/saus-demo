@@ -3,7 +3,7 @@
  *********************************************/
 
 div.slides {
-    background: left top no-repeat url(/public/images/daac_logo_blue.png), right top no-repeat url(/public/images/420px-Globe_icon.png);
+    background: left top no-repeat url(/public/images/daac_logo_blue.png), right top no-repeat url(/public/images/gov-nasa.svg);
     background-size: auto 50px;
 }
 
