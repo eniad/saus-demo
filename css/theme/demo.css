@@ -17,3 +17,8 @@ h1.saus {
     border: none!important;
     box-shadow: none!important;
 }
+
+.section-notes {
+    font-size: small!important;
+    top: 4em!important;
+}

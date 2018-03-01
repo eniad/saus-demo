@@ -32,105 +32,161 @@
 				<p>Daine Wright, ORNL DAAC</p>
 				<p>2018-03-01</p>
 			</section>
-			<section data-markdown>
-				<textarea data-template>
-					## What SAuS does for us
+			<section>
+				<section data-markdown>
+					<textarea data-template>
+						## Why SAuS?
 
-					1. centralized system to manage ingest
-					1. streamline the ingest process
-					1. consistent data provider experience
-					1. create a uniform data product
-					1. diverse data variables, number of files, volume
-					1. improve efficiencies and reduce redundancy
-					1. metrics driven value
+						1. centralized system to manage ingest
+						1. streamline the ingest process
+						1. consistent data provider experience
+						1. create a uniform data product
+						1. handle diverse data variables, number of files, volume, etc.
+						1. improve efficiencies and reduce redundancy
+						1. metrics driven value
 
-					<aside class="notes" data-markdown>
-						1. Flexible role management allows team members to readily coordinate and increases efficiency
-						1. Data products and metadata are uniform and maintainable
+						<aside class="notes" data-markdown>
+							1. centralized location
+								1. Provide the ability to track a dataset from acceptance to publication
+								1. Data uploaded to single secure upload area instead of several points of entry
+								1. Pending data sets for archival recorded in single place
+									1. Data Files, Documentation, Code, Communications internal and external
+									1. Status of submissions in one database
+									1. Reporting of data set submission status becomes simple
+							1. streamlines the ingest process
+								1. Update legacy ingest infrastructure
+								1. Modules can be modified or re-written without affecting workflow
+							1. all data providers start in the same place
+								1. return data providers know what to expect
+							1. Data products and metadata are uniform and maintainable
+								1. metadata and documentation come through the DAACOME
+								1. data distribution package and tool ingest now more consistent
+							1. efficiency
+								1. Handling high-priority/time sensitive (manuscript related) datasets
+								1. Automate steps that can be automated
+								1. QA and doc folks work on what they are great at instead of technical aspects
+									1. no more inconsistent HTML markup
+								1. Flexible but well defined role management allows team members to readily coordinate
+							1. Diversity – Variables
+								1. 2583 keywords 
+								1. 1364 investigators 
+								1. 343 variables 
+								1. 282 sensors 
+								1. 125 sources (satellites, flux towers, airplanes, etc.) 
+							1. Diversity – Files 
+								1. ~400 datasets with 1 file
+								1. ~10 with more than 6000
+								1. most is 90,000
+							1. Diversity – Volume
+								1. 7 datasets &lt;1KB
+								1. 300 datasets 1MB
+								1. recently ingest 7TB dataset
+							1. metrics show that the system is working
+								1. identify bottlenecks and time sinks
+						</aside>
+					</textarea>
+				</section>
+				<section data-markdown class="section-notes">
+					<textarea data-template>
 						1. centralized location
 							1. Provide the ability to track a dataset from acceptance to publication
 							1. Data uploaded to single secure upload area instead of several points of entry
 							1. Pending data sets for archival recorded in single place
 								1. Data Files, Documentation, Code, Communications internal and external
-								1. Status of submissions in one table
+								1. Status of submissions in one database
 								1. Reporting of data set submission status becomes simple
-						1. streamline
+						1. streamlines the ingest process
 							1. Update legacy ingest infrastructure
 							1. Modules can be modified or re-written without affecting workflow
+						1. all data providers start in the same place
+							1. return data providers know what to expect
+						1. Data products and metadata are uniform and maintainable
+							1. metadata and documentation come through the DAACOME
+							1. data distribution package and tool ingest now more consistent
 						1. efficiency
 							1. Handling high-priority/time sensitive (manuscript related) datasets
 							1. Automate steps that can be automated
-						1. Diversity – Variables *update*
-							1. 2583 keywords 
-							1. 1364 investigators 
-							1. 343 variables 
-							1. 282 sensors 
-							1. 125 sources (satellites, flux towers, airplanes, etc.) 
-						1. Diversity – Files 
-							1. *generate bar chart of number of files per dataset*
-						1. Diversity – Volume
-							1. *generate bar chart of number of datasets by data volume*
-					</aside>
-				</textarea>
+							1. QA and doc folks work on what they are great at instead of technical aspects
+								1. no more inconsistent HTML markup
+							1. Flexible but well defined role management allows team members to readily coordinate
+						1. Diversity
+							1. Variables
+								1. 2583 keywords 
+								1. 1364 investigators 
+								1. 343 variables 
+								1. 282 sensors 
+								1. 125 sources (satellites, flux towers, airplanes, etc.) 
+							1. Files 
+								1. ~400 datasets with 1 file
+								1. ~10 with more than 6000
+								1. most is 90,000
+							1. Volume
+								1. 7 datasets &lt;1KB
+								1. 300 datasets 1MB
+								1. recently ingest 7TB dataset
+						1. metrics show that the system is working
+							1. identify bottlenecks and time sinks
+					</textarea>
+				</section>
 			</section>
 			<section data-markdown>
 				<textarea data-template>
 					## What SAuS does not do 
 
-					*this slide could highlight what we need in a new system*
+					1. Fully automate ingest
+					1. Coordinate staff and data providers
+					1. QA
+					1. Documentation
+					1. Prepare distribution package
+					1. Review
+					1. Final check
 				</textarea>
 			</section>
-			<section data-markdown>
-				<textarea data-template>
+			<section>
+				<img src="/public/images/swimlanes_highlevel_v1.3.svg" class="swimlanes"></img>
+			</section>
+			<section>
+				<section data-markdown>
+					<textarea data-template>
 					## Features of SAuS
 				
 					1. Interest Form
 					1. Data Provider Questions &amp; Upload Area
-					1. user accounts managed by ORNL
-					1. Ingest Dashboard
+					1. <strong>Ingest Dashboard</strong>
 					1. Ingest Kit
+					1. QA processing
 					1. Metadata Editor
 					1. Data Access, Tool, and Service Ingest
-					1. Publication
+					1. Publication with Data Provider Review
 					1. Metadata registration
 					
 					<aside class="notes" data-markdown>
-						1. Semi-Automated publication workflow
-							1.Dashboard to handle dataset submission
-							1.Email data provider with instruction for ingest instructions and data upload
-							1.Monitors data upload and progress –agile ingest
-							1.Assigns data QA, emails assignees, and coordinator
-							1.Assign Documentation, emails assignee, and coordinator
-							1.Generate life cycle report of a dataset submission
+						1. Simple interest form to submit data
 						1. Data Provider Interaction (DPQs)
 							1. Utilize data provider questions to collect primary information about datasets
 							1. Answers readily available to publication team
 							1. Form takes about 20 minutes to complete
 							1. Email communication recorded for provenance
 							1. Capture data provider knowledge
-						1. Metadata Editor
-							1.Designed to collect primary information about datasets
-							1.Answers should be readily available to ingest team
-							1.Form should only take about 20 minutes to complete
-							1.Travels with dataset throughout archival process
-						1. Publication
-							1.Monitor data upload area 
-							1.Copies files from upload area to storage and QA area
-							1.Collect granule level metadata
-							1.Data provider review 
-						1. Ingest Kit
-							1. Records emails between data provider and DAAC
-							1. Monitors data upload area 
+						1. authenticate upload
+							1. user accounts managed by ORNL
+						1. Ingest Kit code that runs SAuS
+							1. Monitor data upload area 
 							1. Copies files from upload area to storage and QA area
-							1. Collects granule level metadata
-							1. Backs up MySQL database
-						1. Accepting the data package from the data providers, ensuring the full integrity of the data files.2. Addressing
-						and fixing data quality issues 
-						1. Assembling detailed metadata and documentation, including file level details, processing methodology, and characteristics
-							of data files 
+							1. Collect granule level metadata
+							1. Records emails between data provider and DAAC
+						1. QA
+							1. Accepts the data package from the data providers, ensuring the full integrity of the data files
+							1. dedicated processing server - gdal, netcdf tools, manipulate csv
+							1. Addressing and fixing data quality issues 
+						1. Metadata Editor
+							1. Assembling detailed metadata and documentation
+							1. including granule level details, processing methodology, and characteristics of data files 
+						1. Publication
+							1. Data provider review 
 						1. Setting up data access mechanisms
 						1. Setup of the data in data tools and services for improved data dissemination 
-							1.The ORNL DAAC provides several tools and services for data access, analysis, and visualization for big data analytics.
+							1. The ORNL DAAC provides several tools and services for data access, analysis, and visualization for big data analytics.
 								1. GIS Tools and Services - SDAT
 								1. MODIS Subsetting and Visualization tools
 								1. Web Services - Daymet
@@ -139,48 +195,80 @@
 							1. Registering the dataset in online search and discovery catalogues
 							1. Preserving the data location through Digital Object Identifiers (DOI)
 					</aside>
+					</textarea>
+				</section>
+				<section data-markdown class="section-notes">
+					<textarea data-template>
 
-			</textarea>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
-					## Ingest Dashboard
+						1. Simple interest form to submit data
+						1. Data Provider Interaction (DPQs)
+							1. Utilize data provider questions to collect primary information about datasets
+							1. Answers readily available to publication team
+							1. Form takes about 20 minutes to complete
+							1. Email communication recorded for provenance
+							1. Capture data provider knowledge
+						1. Ingest Kit code that runs SAuS
+							1. Monitor data upload area 
+							1. Copies files from upload area to storage and QA area
+							1. Collect granule level metadata
+							1. Records emails between data provider and DAAC
+						1. QA
+							1. Accepts the data package from the data providers, ensuring the full integrity of the data files
+							1. dedicated processing server - gdal, netcdf tools, manipulate csv
+							1. Addressing and fixing data quality issues 
+						1. Metadata Editor
+							1. Assembling detailed metadata and documentation
+							1. including granule level details, processing methodology, and characteristics of data files 
+						1. Publication
+							1. Data provider review 
+						1. Setting up data access mechanisms
+						1. Setup of the data in data tools and services for improved data dissemination 
+							1. The ORNL DAAC provides several tools and services for data access, analysis, and visualization for big data analytics.
+								1. GIS Tools and Services - SDAT
+								1. MODIS Subsetting and Visualization tools
+								1. Web Services - Daymet
+								1. Airborne visualization
+						1. metadata registration - CMR, DOI
+							1. Registering the dataset in online search and discovery catalogues
+							1. Preserving the data location through Digital Object Identifiers (DOI)
 
-					1. Submission
-						1. Automated Emails
-						1. Monitors Upload Area
-					1. QA
-					1. Documentation
-					1. Publication
-				</textarea>
+					</textarea>
+				</section>
 			</section>
 			<section>
-				<img src="/public/images/swimlanes_highlevel_v1.3.svg" class="swimlanes"></img>
-			</section>
-			<section data-markdown>
-				<textarea data-template>
-					## Demo
+				<section data-markdown>
+					<textarea data-template>
+					## Ingest Dashboard
 
-					*show actual screen of each component*
+					1. Stages
+						1. Submission
+						1. QA
+						1. Documentation
+						1. Publication
+					1. Reporting
+						1. Submission status
+						1. Metrics
 
-					1. Interest form
-					1. Initiate Submission
-						1. Submission metadata
-					1. Close Submission
-					1. Assign QA, Documentation, Tool Coordination
-						1. Reports
-					1. Publication
+					<aside class="notes">
+						1. Semi-Automated publication workflow
+							1. Dashboard to handle dataset submission
+							1. Email data provider with instruction for ingest instructions and data upload
+							1. Monitors data upload and progress –agile ingest
+							1. Assigns data QA, emails assignees, and coordinator
+							1. Assign Documentation, emails assignee, and coordinator
+							1. Generate life cycle report of a dataset submission
 
-					<aside class="notes" data-markdown="">
-						1. Interest form
+						*show actual screen of each component*
+
+						1. [Interest form](https://daac.ornl.gov/submit)
 							1. simple, starts process
 						1. Initate submission - ingest coordinator
 							1. Initial email - instructions, links to DPQs, user account, data upload area, progress tracker
 							1. dataset metadata - assign project, ds_id
 						1. Ingest Kit
 							1. monitors upload area, automated reminder emails, captures incoming emails
-						1. Stage
-							1. QA - gdal, netcdf tools, manipulate csv
+						1. Stages
+							1. QA
 							1. Documentation - DAACOME
 							1. Tool Coordination - new stage layered on top of QA, show flexibility of workflow
 							1. IC Verifies each stage
@@ -189,9 +277,39 @@
 							1. not fully automated, scripts run by IC from CLI
 					</aside>
 				</textarea>
+				</section>
+				<section data-markdown class="section-notes">
+					<textarea data-template>
+						1. Semi-Automated publication workflow
+							1. Dashboard to handle dataset submission
+							1. Email data provider with instruction for ingest instructions and data upload
+							1. Monitors data upload and progress –agile ingest
+							1. Assigns data QA, emails assignees, and coordinator
+							1. Assign Documentation, emails assignee, and coordinator
+							1. Generate life cycle report of a dataset submission
+
+						*show actual screen of each component*
+
+						1. [Interest form](https://daac.ornl.gov/submit)
+							1. simple, starts process
+						1. Initate submission - ingest coordinator
+							1. Initial email - instructions, links to DPQs, user account, data upload area, progress tracker
+							1. dataset metadata - assign project, ds_id
+						1. Ingest Kit
+							1. monitors upload area, automated reminder emails, captures incoming emails
+						1. Stages
+							1. QA
+							1. Documentation - DAACOME
+							1. Tool Coordination - new stage layered on top of QA, show flexibility of workflow
+							1. IC Verifies each stage
+							1. reports of status
+						1. Publication
+							1. not fully automated, scripts run by IC from command line
+					</textarea>
+				</section>
 			</section>
 			<section data-markdown>
-					<textarea data-template>
+				<textarea data-template>
 					## Metrics
 
 					1. *number of datasets*
